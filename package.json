@@ -1,0 +1,17 @@
+{
+  "name": "natures_project",
+  "version": "1.0.0",
+  "description": "Natures webdesign project",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass main/main.scss assets/css/style.css -w"
+  },
+  "author": "Mohebbullah",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
+}
